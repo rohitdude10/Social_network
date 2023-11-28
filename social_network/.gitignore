@@ -1,0 +1,26 @@
+# .gitignore
+
+# Virtual environment
+djangoenv/
+
+# Compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# Database
+db.sqlite3
+
+# Environment variable file
+.env
+
+# Ignore Docker related files
+docker-compose.override.yml
+.docker/
